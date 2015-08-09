@@ -1,0 +1,33 @@
+{
+  "name": "angular-unamed-scroll",
+  "version": "0.1.0",
+  "description": "Scroll to elements on page without relying on IDs. Adds named elements to the service, then scroll to them anywhere in your code",
+  "main": "angular-unamed-scroll.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocesar/angular-unamed-scroll.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "directive",
+    "service",
+    "scrollTop",
+    "scroll"
+  ],
+  "dependencies": {
+      "scroll-to": "0.x"
+  },
+  "devDependencies": {
+    "browserify": "11.x",
+    "tsify": "0.x"
+  },
+  "scripts": {
+    "build": "browserify angular-unamed-scroll.ts -p [ tsify ] > angular-unamed-scroll.js"
+  },
+  "license": "   MIT",
+  "bugs": {
+    "url": "https://github.com/pocesar/angular-unamed-scroll/issues"
+  },
+  "homepage": "https://github.com/pocesar/angular-unamed-scroll#readme"
+}

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "ES5",
+        "module": "commonjs",
+        "removeComments": false
+    },
+    "files": [
+        "typings/tsd.d.ts",
+        "angular-unamed-scroll.ts"
+    ]
+}
